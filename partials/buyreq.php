@@ -46,6 +46,7 @@
         <script type="text/javascript" src="partials/jqryfile4.js"></script>
         </form>
        <!-- <div class="modal-footer">
+       <?php include'partials/footer.php';?>
         </div>-->
     </div>
 </div>

@@ -15,7 +15,7 @@
 <option value="Management">Management</option>
 <option value="Computer Science">Computer Science</option>
 <option value="Action and Adventure">Action and Adventure</option>
-<option value="Anthology">Anthology</option>
+<!-- <option value="Anthology">Anthology</option>
 <option value="Classic">Classic</option>
 <option value="Comic and Graphic Novel">Comic and Graphic Novel</option>
 <option value="Crime and Detective">Crime and Detective</option>
@@ -48,4 +48,4 @@
 <option value="Self - help Book">Self-help Book </option>
 <option value="Speech">Speech</option>  
 <option value="Textbook">Textbook</option> 
-<option value="Poetry">Poetry</option>
+<option value="Poetry">Poetry</option> -->
