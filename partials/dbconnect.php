@@ -1,5 +1,5 @@
 <?php
-  $servername = "localhost";
+  $servername = "books-bay-server.mysql.database.azure.com";
   $username = "srexphqixt";
   $password = "BRD878M6F13A123C";
   $db="projectx";
