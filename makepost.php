@@ -1,3 +1,4 @@
+<?php include'partials/header.php';?>
 <!doctype html>
 <html lang="en">
 
@@ -28,7 +29,7 @@
 
 <body>
 
-    <?php include'partials/header.php';?>
+    
         <div class="container">
         <h1 class="offset-sm-4 mb-4 mt-2">Upload Book !!</h1>
         <form action="partials/post_uplod.php" method="post" enctype="multipart/form-data">
@@ -83,9 +84,9 @@
                             <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
                         </div>
                         <div class="custom-file">
-                            <input type="file" class="custom-file-input" id="File2"
-                                aria-describedby="inputGroupFileAddon01" required name="bookpic2">
-                            <label class="custom-file-label" for="inputGroupFile01">Choose backside image of book file
+                            <input type="file" class="custom-file-input" id="File2" 
+                                aria-describedby="inputGroupFileAddon01"  name="bookpic2">
+                            <label class="custom-file-label" for="inputGroupFile01">Optional
                             </label>
                         </div>
                     </div>
@@ -96,14 +97,13 @@
                         </div>
                         <div class="custom-file">
                             <input type="file" class="custom-file-input" id="File3"
-                                aria-describedby="inputGroupFileAddon01" required name="bookpic3">
-                            <label class="custom-file-label" for="inputGroupFile01">Choose random image of your book
-                                file </label>
+                                aria-describedby="inputGroupFileAddon01" name="bookpic3">
+                            <label class="custom-file-label" for="inputGroupFile01">Optional </label>
                         </div>
                     </div>
                 </div>
 
-                <label for="exampleFormControlTextarea1">Select categories of your book</label>
+                <label for="exampleFormControlTextarea1">Select categorie of your book</label>
                 <div class="form row">
                     <div class="form-group col-md-3">
                         <label for="inputState1">Genere</label>
@@ -111,33 +111,32 @@
                             <option value="">Choose...</option>
                             <?php include'partials/select.php';?>
                         </select>
-                        <h5 id="selchk"></h5>
                     </div>
-
+<!-- 
                     <div class="form-group col-md-3">
                         <label for="inputState2">Genere</label>
                         <select id="inputState2" class="form-control" name="genr2">
-                            <option selected value="">Choose...</option>
-                            <?php include'partials/select.php';?>
-                        </select>
+                            <option selected value="">Choose...</option>-->
+                            <?php/* include'partials/select.php';*/?>
+                        <!-- </select>
                     </div>
 
                     <div class="form-group col-md-3">
                         <label for="inputState3">Genere</label>
                         <select id="inputState3" class="form-control" name="genr3">
-                            <option selected value="">Choose...</option>
-                            <?php include'partials/select.php';?>
-                        </select>
+                            <option selected value="">Choose...</option> -->
+                            <?php/* include'partials/select.php';*/?>
+                        <!-- </select>
                     </div>
 
                     <div class="form-group col-md-3">
                         <label for="inputState4">Genere</label>
                         <select id="inputState4" class="form-control" name="genr4">
-                            <option selected value="">Choose...</option>
-                            <?php include'partials/select.php';?>
-                        </select>
-                    </div>
-                </div>
+                            <option selected value="">Choose...</option> -->
+                            <?php/* include'partials/select.php';*/?> 
+                        <!-- </select> 
+                    </div>-->
+                </div> 
 
                 <div class="form-group ">
                     <button type="submit" class="btn btn-outline-danger col-md-2 offset-sm-5" id="subtn" name="booksubmit">Submit</button>
@@ -147,6 +146,7 @@
     </div>
 
     </div>
+    <?php include'partials/footer.php';?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
